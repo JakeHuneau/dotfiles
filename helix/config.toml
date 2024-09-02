@@ -1,0 +1,27 @@
+theme = "tokyonight"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+rulers = [88]
+
+[editor.statusline]
+left = ["spinner"]
+center = ["file-name", "file-modification-indicator"]
+right = ["position", "total-line-numbers"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+C-l = "jump_view_right"
+C-h = "jump_view_left"
